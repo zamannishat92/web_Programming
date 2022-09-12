@@ -1,0 +1,69 @@
+body {
+    font-family: 'Raleway', sans-serif;;
+}
+
+.navigation {
+    padding: 0% 3%;
+/*    border-bottom: 3px solid #0096ff;*/
+    background-color: #5CDB95;
+    font-weight: 700;
+
+}
+.navbar-nav{
+    float: left;
+}
+.navbar-nav a {
+    color: #05396B;
+    margin: 10px 20px;
+}
+
+.navbar-nav a:hover {
+    color: white;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #0096ff;
+}
+.postIcons{
+    padding: 1%;
+}
+
+
+.date {
+    font-size: 11px
+}
+
+
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+
+
+/*Toast Notifications*/
+
+.notices{
+    height: 80%;
+    width: 100%;
+}
+.notices a{
+    background-color: #84B082;
+    padding: 7% 5%;
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+}

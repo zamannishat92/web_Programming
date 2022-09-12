@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Drive 1</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.container
+	{
+		height: 400px;
+		width: 300px;
+		box-sizing: border-box;
+		border:.3 solid black;
+		
+		padding-left: 10px;
+		
+	}
+	img{
+		height: 30px;
+		font-weight: 30px;
+		padding-right: 10px;
+	}
+	.box-1{
+		display: flex;
+		flex-direction:column;
+
+
+	}
+	.box-2{
+		display: flex;
+		justify-content:flex-start;
+		padding-bottom: 20px;
+	}
+	.container-1{
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	}
+	#n{
+		height: 40px;
+		width: 80px;
+		border-radius: 15px;
+		text-align: center;
+		margin: 10px;
+		line-height: 40px;
+		box-shadow: 2px 2px 2px 2px #dcdde1;
+		margin-bottom: 20px;
+	}
+	#d{
+		background-color: lightskyblue;
+		border-radius: 0px 20px 20px 0px ;
+		text-align: left;
+		padding-top: 5px;
+		margin-bottom: 10px;
+		color: blue;
+	}
+	.box-3{
+		padding-bottom: 10px;
+		padding-left: 10px;
+		font-size: 15px;
+		margin-bottom:10px ;
+	}
+	
+</style>
+<body>
+	<div class="container-1">
+		<div class="container">
+			<div class="box-2">
+			<img src="drive-icon.svg"><h1 style="color:gray">Drive</h1></div>
+				<hr>
+				<div class="box-1">
+					<span id="n">New</span>
+					<span class="box-3" >Priority</span>
+					<div class="box-3" id="d">My Drive</div>
+					<span class="box-3">Shared with me</span>
+					<span class="box-3">Recent</span>
+					<span class="box-3">Starred</span>
+					<span class="box-3">Trash</span>
+				</div>
+				<hr>
+			<span class="box-3">Storage</span><br>
+			<span style="padding-top: 10px;"class="box-3" >121.38 GB Used</span>
+		</div>
+	</div>
+</body>
+</html>
